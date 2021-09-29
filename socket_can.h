@@ -35,8 +35,6 @@ static void* TransmitFunc(void* param);
 pthread_t thread_0_;
 pthread_t thread_1_;
 static int run_flag_;
-// vector<can_frame> can_buf_1_;
-// vector<can_frame> can_buf_2_;
 // void* handle_ = nullptr;
 uint32_t receive_msgs_count;
 
@@ -48,4 +46,3 @@ struct sockaddr_can addr_;
 const char bus_name0[5] = "can0";
 const char bus_name1[5] = "can1";
 
-};
